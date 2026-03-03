@@ -1,0 +1,31 @@
+{
+  "name": "mindlang-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Server - MindLang 기반, Zero-Dependency",
+  "main": "src/server.ts",
+  "scripts": {
+    "examples:basic": "ts-node examples/01-basic.ts",
+    "examples:advanced": "ts-node examples/02-advanced.ts",
+    "examples:db": "ts-node examples/03-database.ts",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "graphql",
+    "mindlang",
+    "server",
+    "api",
+    "query",
+    "mutation"
+  ],
+  "author": "Claude",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
